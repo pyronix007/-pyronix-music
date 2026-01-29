@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react"
 export default defineConfig({
   plugins: [react()],
 
-  // ✅ Obligatoire pour GitHub Pages
+  // ✅ GitHub Pages base path
   base: "/-pyronix-music/",
 
   define: {
